@@ -1,0 +1,22 @@
+<html>
+<head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>My Todos</title>
+</head>
+<body class="container-fluid">
+    <h1>My TODOS</h1>
+
+    <% if(todos.length > 1) { %>
+        <ul>
+        <% todos.forEach( (todo) => { %>
+            <li>
+                <%= todo.title %>
+                <% if(todo.description) { %>
+                    - <%= todo.description %>
+                <% } %>
+            </li>
+        <% }); %>
+        </ul>
+    <% } %>
+</body>
+</html>
