@@ -1,0 +1,11 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mBowlingSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- roll(): roll something should add the roll to the rolls list.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- score(): All rolls with 0 pin down should give a score of 0.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- score(): All rolls with 1 pin down should give a score of 20.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- score(): All rolls with 1 pin down and 1 spare should give 29.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- score(): All rolls with 1 pin down and 1 strike should give 30.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- score(): All rolls with strikes should give 300.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- score(): All rolls with 1 except spare at the end and 3 should give 31.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- score(): All rolls with 1 except 1 spare and 1 strike at the end should give 38.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- score(): All rolls with 1 except 1 strike and 2 3 pin down at the end should give 34.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- score(): random values[0m[0m
