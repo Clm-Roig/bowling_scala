@@ -1,6 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/clement/Bureau/projets_informatique/TP_Polytech/kata_bowling_scala/src/test/scala/bowling/BowlingSpec.scala:20:19: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : org.scalacheck.Gen[Int][0m
-[0m[[0m[31merror[0m] [0m[0m required: Int[0m
-[0m[[0m[31merror[0m] [0m[0m        Gen.choose(0,9-last)[0m
-[0m[[0m[31merror[0m] [0m[0m                  ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
